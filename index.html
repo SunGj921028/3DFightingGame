@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="screen_design.css">
+    <title>Final Project</title>
+</head>
+<body onload="main()">
+    <div class="game-container">
+        <div class="game-screen">
+            <canvas id="webgl" width="1300" height="700">
+                Please use a browser that support "canvas"
+            </canvas>
+            <div class="introduction" id="introduction">
+                click the <span>left</span> mouse button to start the game <br>
+                Press <span>w</span> to move forward <br>
+                Press <span>a</span> to move left <br>
+                Press <span>s</span> to move backward <br>
+                Press <span>d</span> to move right <br>
+                Press <span>space</span> to jump <br>
+                Press <span>t</span> to change the person's view <br>
+                Press <span>i</span> to change the mouse's sensitivity <br>
+                move mouse to look around <br>
+                <span>left</span> mouse button to attack <br>
+                <span>right</span> mouse button to use skill <br>
+            </div>
+
+            <div id="pause" class="pause-message">
+                Pause !!
+            </div>
+            <div id="gameover-message" class="gameover-message">
+                You win!!
+            </div>
+            <div id="magic-message" class="magic-message">
+                Using Skill !!
+            </div>
+        </div>
+        <div class="introduction-container">
+            This is a easy battle game, try to beat the golem and win the game. <br>
+            <div>You can press <span>ESC</span> to pause the game</div>
+            <div>OR   press <span>i</span> to see the introduction.</div>
+            <br>
+        </div>
+    </div>
+    <script src="cuon-matrix.js"></script>
+    <script src="texture.js"></script>
+    <script src="WebGL.js"></script>
+    <script src="shader.js"></script>
+    <script src="init.js"></script>
+    <script src="framebuffer.js"></script>
+    <script src="model.js"></script>
+    <script src="setMat.js"></script>
+    <script src="object.js"></script>
+    <script src="interation.js"></script>
+</body>
+</html>
