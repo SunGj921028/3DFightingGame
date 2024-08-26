@@ -7,7 +7,6 @@ var enemyObj = [];
 var catObj = [];
 var swordObj = [];
 
-var sonicObj = [];
 
 //! get all the model we need
 async function getAllModelData() { 
@@ -19,7 +18,6 @@ async function getAllModelData() {
     enemyObj = await load_model("./object/Stone.obj");
     catObj = await load_model("./object/12221_Cat_v1_l3.obj");
     swordObj = await load_model("./object/Sting-Sword-lowpoly.obj");
-    sonicObj = await load_model("./object/sonic.obj");
 }
 
 //! Load model function
