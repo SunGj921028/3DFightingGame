@@ -153,12 +153,4 @@ async function load_all_texture() {
     var imageNormalMap4 = new Image();
     imageNormalMap4.onload = function () { initTexture(gl, imageNormalMap4, "brickNorTex"); };
     imageNormalMap4.src = "./normalMap/hole.jpg";
-
-    // var imageNormalMap2 = new Image();
-    // imageNormalMap2.onload = function () { initTexture(gl, imageNormalMap2, "holeNormalMapTex"); };
-    // imageNormalMap2.src = "./normalMap/hole.png";
-
-    // var imageSword = new Image();
-    // imageSword.onload = function () { initTexture(gl, imageSword, "swordTex"); };
-    // imageSword.src = "./texture/Texture.jpg";
 }
